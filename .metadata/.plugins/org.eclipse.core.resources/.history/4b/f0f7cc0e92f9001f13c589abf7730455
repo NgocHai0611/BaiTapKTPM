@@ -1,0 +1,11 @@
+package satePattern;
+
+import entites.Employee;
+
+public class Run {
+	public static void main(String[] args) {
+		Employee e = new Employee("001", "Hai", new ThamNienState());
+				
+				
+	}
+}

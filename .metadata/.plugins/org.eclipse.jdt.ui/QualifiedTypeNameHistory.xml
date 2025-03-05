@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entites.ChucVu"/>
+    <fullyQualifiedTypeName name="satePattern.ChucVuState"/>
+    <fullyQualifiedTypeName name="entites.Employee"/>
+    <fullyQualifiedTypeName name="satePattern.EmployeeStatePattern"/>
+    <fullyQualifiedTypeName name="satePattern.ThamNienState"/>
+    <fullyQualifiedTypeName name="satePattern.TienSiState"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

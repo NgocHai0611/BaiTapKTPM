@@ -1,0 +1,44 @@
+package satePattern;
+
+public class EmployeeStatePattern {
+	private String idEmployee;
+	private String nameEmployee;
+	private ChucVuState chucVuState;
+	public EmployeeStatePattern() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public EmployeeStatePattern(String idEmployee, String nameEmployee, ChucVuState chucVuState) {
+		super();
+		this.idEmployee = idEmployee;
+		this.nameEmployee = nameEmployee;
+		this.chucVuState = chucVuState;
+	}
+
+
+	public String getIdEmployee() {
+		return idEmployee;
+	}
+	public void setIdEmployee(String idEmployee) {
+		this.idEmployee = idEmployee;
+	}
+	public String getNameEmployee() {
+		return nameEmployee;
+	}
+	public void setNameEmployee(String nameEmployee) {
+		this.nameEmployee = nameEmployee;
+	}
+	public ChucVuState getChucVuState() {
+		return chucVuState;
+	}
+	public void setChucVuState(ChucVuState chucVuState) {
+		this.chucVuState = chucVuState;
+	}
+	
+	
+	 public String tinhLuong() {
+	        return chucVuState.tinhLuong();
+	 }
+	
+}

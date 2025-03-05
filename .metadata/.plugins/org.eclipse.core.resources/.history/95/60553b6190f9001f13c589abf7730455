@@ -1,0 +1,29 @@
+package satePattern;
+
+public class ThamNienState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1000; // Lương cơ bản cho chức vụ Thâm niên
+    }
+}
+
+public class TienSiState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1100; // Lương cơ bản cho chức vụ Tiến sĩ
+    }
+}
+
+public class ToTruongState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1200; // Lương cơ bản cho chức vụ Tổ trưởng
+    }
+}
+
+public class TruongKhoaState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1300; // Lương cơ bản cho chức vụ Trưởng khoa
+    }
+}

@@ -1,0 +1,12 @@
+package main;
+
+import entites.ChucVu;
+import entites.Employee;
+
+public class Run {
+	public static void main(String[] args) {
+		ChucVu chucvu;
+		Employee e1 = new Employee("E001", "Hai" , ChucVu.TienSi);
+		System.out.println(e1.getPhuCapBaseChucVu(e1));
+	}
+}

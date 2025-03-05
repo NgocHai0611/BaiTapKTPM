@@ -1,0 +1,8 @@
+// Interface ChucVuState
+package satePattern;
+
+public interface ChucVuState {
+    int tinhLuong();
+}
+
+

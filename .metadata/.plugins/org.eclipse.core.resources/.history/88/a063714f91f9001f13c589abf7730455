@@ -1,0 +1,35 @@
+package satePattern;
+
+import entites.Employee;
+
+class ThamNienState implements ChucVuState{
+
+	@Override
+	public String tinhLuong() {
+		// TODO Auto-generated method stub
+		return "LCB" + 1000;
+	}
+	
+}
+
+class TienSiState implements ChucVuState {
+    @Override
+    public String tinhLuong() {
+    	return "LCB" + 1100;
+    }
+}
+
+class ToTruongState implements ChucVuState {
+    @Override
+    public String tinhLuong() {
+    	return "LCB" + 1200;
+    }
+}
+
+// Lớp TruongKhoaState
+class TruongKhoaState implements ChucVuState {
+    @Override
+    public String tinhLuong() {
+        return 1300; // Lương cơ bản cho chức vụ Trưởng khoa
+    }
+}

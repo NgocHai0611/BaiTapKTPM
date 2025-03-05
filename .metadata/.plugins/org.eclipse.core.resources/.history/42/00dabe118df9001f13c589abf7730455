@@ -1,0 +1,70 @@
+package entites;
+
+public class Employee {
+	private String idEmployee;
+	private String nameEmployee;
+	private ChucVu chucVu;
+	
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String idEmployee, String nameEmployee, ChucVu chucVu) {
+		super();
+		this.idEmployee = idEmployee;
+		this.nameEmployee = nameEmployee;
+		this.chucVu = chucVu;
+	}
+
+	public String getIdEmployee() {
+		return idEmployee;
+	}
+
+	public void setIdEmployee(String idEmployee) {
+		this.idEmployee = idEmployee;
+	}
+
+	public String getNameEmployee() {
+		return nameEmployee;
+	}
+
+	public void setNameEmployee(String nameEmployee) {
+		this.nameEmployee = nameEmployee;
+	}
+
+	public ChucVu getChucVu() {
+		return chucVu;
+	}
+
+	public void setChucVu(ChucVu chucVu) {
+		this.chucVu = chucVu;
+	}
+	
+	public String getPhuCapBaseChucVu(Employee e) {
+		String result = "";
+		if(e.getChucVu() == ChucVu.ThamNien ) {
+			result= "LCB" + 1000;
+			return result;
+		}else if (e.getChucVu() == ChucVu.TienSi){
+			result =  "LCB" + 1100;
+			return result;
+		}else if(e.getChucVu() == ChucVu.ToTruong) {
+			result = "LCB" + 1200;
+			return result;
+		}else if(e.getChucVu() == ChucVu.TruongKhoa) {
+			return "LCB" + 1300;
+		}
+		return result;
+	}
+	
+
+	@Override
+	public String toString() {
+		return "Employee [idEmployee=" + idEmployee + ", nameEmployee=" + nameEmployee + ", chucVu=" + chucVu + "]";
+	}
+	
+	
+	
+	
+}

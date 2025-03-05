@@ -1,0 +1,9 @@
+package entites;
+
+public enum ChucVu {
+	ToTruong,
+	TruongPhong,
+	TienSi,
+	ThamNien,
+	
+}

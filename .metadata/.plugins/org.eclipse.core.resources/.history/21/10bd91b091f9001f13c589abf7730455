@@ -1,0 +1,7 @@
+package satePattern;
+
+public class EmployeeStatePattern {
+	private String idEmployee;
+	private String nameEmployee;
+	private ChucVuState chucVuState;
+}

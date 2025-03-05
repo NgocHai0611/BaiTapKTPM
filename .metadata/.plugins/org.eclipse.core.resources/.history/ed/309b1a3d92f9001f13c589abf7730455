@@ -1,0 +1,11 @@
+package satePattern;
+
+
+
+public class Run {
+	public static void main(String[] args) {
+		EmployeeStatePattern e = new EmployeeStatePattern("001" , "Hai" , new ThamNienState());
+		EmployeeStatePattern e1 = new EmployeeStatePattern("001" , "Hai" , new ThamNienState());
+			
+	}
+}

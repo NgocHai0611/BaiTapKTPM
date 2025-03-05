@@ -1,0 +1,5 @@
+package satePattern;
+
+public interface chucVuState {
+
+}

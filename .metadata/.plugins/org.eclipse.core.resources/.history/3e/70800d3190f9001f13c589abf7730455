@@ -1,0 +1,7 @@
+package satePattern;
+
+import entites.Employee;
+
+public interface chucVuState {
+	String tinhLuong(Employee);
+}

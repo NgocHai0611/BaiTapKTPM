@@ -1,0 +1,29 @@
+package stragy;
+
+class ThamNienSalaryStrategy implements SalaryStrategy {
+    @Override
+    public String tinhLuong() {
+    	return "LCB" + 1000;
+    }
+}
+
+class TienSiSalaryStrategy implements SalaryStrategy {
+    @Override
+    public String tinhLuong() {
+    	return "LCB" + 1100;
+    }
+}
+
+class ToTruongSalaryStrategy implements SalaryStrategy {
+    @Override
+    public String tinhLuong() {
+        return 1200; // Lương cho chức vụ Tổ trưởng
+    }
+}
+
+class TruongKhoaSalaryStrategy implements SalaryStrategy {
+    @Override
+    public String tinhLuong() {
+        return 1300; // Lương cho chức vụ Trưởng khoa
+    }
+}

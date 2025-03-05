@@ -1,0 +1,9 @@
+package entites;
+
+public class Employee {
+	private String idEmployee;
+	private String nameEmployee;
+	private ChucVu chucVu;
+	
+	
+}

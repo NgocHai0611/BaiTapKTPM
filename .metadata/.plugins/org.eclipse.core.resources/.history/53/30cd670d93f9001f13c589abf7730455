@@ -1,0 +1,9 @@
+package stragy;
+
+public class EmployeeStragy {
+	private String idEmployee;
+	private String nameEmployee;
+	private SalaryStrategy salaryStrategy;
+	
+	
+}

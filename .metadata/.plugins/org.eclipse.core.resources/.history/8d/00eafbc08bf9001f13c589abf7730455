@@ -1,0 +1,22 @@
+package entites;
+
+public class Employee {
+	private String idEmployee;
+	private String nameEmployee;
+	private ChucVu chucVu;
+	
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String idEmployee, String nameEmployee, ChucVu chucVu) {
+		super();
+		this.idEmployee = idEmployee;
+		this.nameEmployee = nameEmployee;
+		this.chucVu = chucVu;
+	}
+	
+	
+	
+}

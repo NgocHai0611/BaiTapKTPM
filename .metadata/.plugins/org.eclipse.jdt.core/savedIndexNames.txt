@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+T:\21006651_NguyenDoanNgocHai_BT_DesignPattern\.metadata\.plugins\org.eclipse.jdt.core
+2895183014.index
+2333768303.index
+1865797976.index

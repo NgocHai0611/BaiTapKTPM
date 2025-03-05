@@ -1,0 +1,33 @@
+package satePattern;
+
+import entites.Employee;
+
+public class ThamNienState implements ChucVuState {
+
+	@Override
+	public String tinhLuong(Employee e) {
+		return "LCB" + 1000;
+		
+	}
+}
+
+public class TienSiState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1100; // Lương cơ bản cho chức vụ Tiến sĩ
+    }
+}
+
+public class ToTruongState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1200; // Lương cơ bản cho chức vụ Tổ trưởng
+    }
+}
+
+public class TruongKhoaState implements ChucVuState {
+    @Override
+    public int tinhLuong() {
+        return 1300; // Lương cơ bản cho chức vụ Trưởng khoa
+    }
+}
