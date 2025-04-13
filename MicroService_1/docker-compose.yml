@@ -1,0 +1,16 @@
+services:
+  gateway:
+    build:
+      dockerfile: DockerFile
+      context: ./gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - customer-service
+
+  customer-service:
+    build:
+      dockerfile: DockerFile
+      context: ./customerService
+    ports:
+      - "3001:3001"
